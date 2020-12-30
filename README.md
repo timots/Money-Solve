@@ -1,10 +1,6 @@
 # Nabung
-Status : **Work In Progress**
+Status : **Final 1.0**
 
-## Cara install :
-1. Clone repository ini ke dalam htdocs di xampp
-2. Buat database bernama nabung, dan import `*.sql` nya
-3. Selesai
 
 ## Library / Framework yang digunakan :
 * [Bootstrap 3.0](http://getbootstrap.com/ "Bootstrap 3.0")
