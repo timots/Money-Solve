@@ -1,0 +1,236 @@
+/*
+ * Main Themes
+ * by Me x Bootflat x Bootstrap
+ * 
+ */
+html,body{
+  background-color: #F5F7FA;
+  height: 100%;
+}
+.text-center{
+  text-align: center;
+}
+
+input{
+  box-shadow: none !important;
+}
+.btn{
+  outline: 0 !important;
+}
+
+/* Login Form */
+.login-form{
+  margin: 100px auto;
+  padding: 20px 50px;
+  width: 450px;
+}
+@media (max-width: 768px){
+  .login-form{
+    width: 100%;
+  }
+}
+
+/* Error class */
+.error-message{
+  margin-top: 15px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+.error-message-warning{
+  border-left: 3px solid #F6BB42;
+}
+.error-message-danger{
+  border-left: 3px solid #E9573F;
+}
+.error-message-success{
+  border-left: 3px solid #8CC152;
+}
+.error-button{
+  margin-top: 20px;
+}
+.error-box{
+  margin-top:35px;
+}
+.error-title{
+  margin-top: 0px;
+}
+.error-icon{
+  font-size: 94px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.huge{
+  font-size: 32px;
+  line-height: normal;
+}
+
+/* font color */
+.fc-danger{
+  color: #DA4453;
+}
+.fc-danger-light{
+  color: #ED5565;
+}
+.fc-primary{
+  color: #3BAFDA;
+}
+.fc-primary-light{
+  color: #4FC1E9;
+}
+.fc-warning{
+  color: #F6BB42;
+}
+.fc-warning-light{
+  color: #FFCE54;
+}
+.fc-success{
+  color: #8CC152;
+}
+.fc-success-light{
+  color: #A0D468;
+}
+.fc-info{
+  color: #37BC9B;
+}
+.fc-info-light{
+  color: #48CFAD;
+}
+
+/* skin color */
+
+
+/* sidebar */
+.main-sidebar{
+  position: absolute;;
+  width:250px;
+  padding-top: 10px;
+  padding-left: 10px;
+  min-height: 100%;
+  padding-right: 5px;
+}
+
+/* main content */
+.main-content{
+  margin-left: 260px;
+  padding-top: 10px;
+  min-height: 100%;
+}
+.content-header{
+  margin: 0 20px;
+}
+.content-box{
+  margin: 0 20px 20px;
+  border-radius: 5px;
+  min-height: 500px;
+  padding: 30px;
+}
+
+/* Tabel Data */
+table{
+  background-color:white;
+}
+.colNo{
+  width: 5%;
+  text-align: center;
+}
+.colFor{
+  width: 25%;
+}
+.colDate{
+  width: 25%;
+}
+.colValue{
+  width: 25%;
+}
+.colAct{
+  width: 20%;
+  text-align: center;
+}
+
+.colBarang{
+  width: 20%;
+}
+.colProgress{
+  width: 30%;
+}
+.colHarga{
+  width: 25%;
+}
+
+/* Keterangan */
+.status-jumlah{
+  font-weight: 600;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/* Box Dashboard */
+.box-dashboard{
+  background-color: #48CFAD;
+  margin: 5px 0px;
+}
+.box-icon{
+  font-size: 50px;
+  padding: 5px;
+  width: 
+}
+
+/* Settings */
+.profile-view-only{
+  font-size: 15px;
+}
+.miniButtonText{
+  font-size: 13px;
+  margin-left: 10px;
+}
+.miniButtonText:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.page-title{
+  margin-top: 0px; 
+}
+.user-details{
+  background-color: white;
+  border: 1px solid #E6E9ED;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.sub-title{
+  float: left;
+  font-weight: 600;
+  font-size: 16px;
+  padding-right: 5px;
+}
+
+.sub-value{
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* User Proflie
+*/
+.user-profile{
+    padding-top:30px;
+    padding-left:35px;
+    padding-right:35px;
+
+}
+.user-profile > img{
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+.user-profile > .profile-status{
+    margin-top: 15px;
+    text-align: center;
+}
+.profile-status > h5{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.profile-status > h6{
+  margin-top: 5px;
+}
